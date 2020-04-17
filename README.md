@@ -1,3 +1,6 @@
+## Discovery
+Equipe Christelle, Enzo, Thomas B. and François
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
