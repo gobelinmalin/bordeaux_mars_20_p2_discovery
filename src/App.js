@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 
-import Home from "Home";
-import Contact from "Contact";
-import Quiz from "Quiz";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Quiz from "./components/Quiz";
 
 
 import "./App.css";
@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/quiz" component={Quiz} />
+        <Route path="/Contact" component={Contact} />
+        <Route path="/Quiz" component={Quiz} />
       </Switch>
     </div>
   );
