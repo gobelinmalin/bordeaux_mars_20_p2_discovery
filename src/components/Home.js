@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../style/css/Home.css";
+//const logoSvg from "../style/logo_discovery-01.svg"
 
 class Home extends Component {
   render() {
     return (
       <div>
         <nav className="NavBar">
+        <img src= "logoSvg"  alt="logo"/>
         <Link to="/">Home</Link>
         <Link to="/contact">Contact</Link>
         </nav>
