@@ -5,7 +5,6 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Quiz from "./components/Quiz";
 
-
 import "./App.css";
 
 function App() {
@@ -13,8 +12,8 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/Contact" component={Contact} />
-        <Route path="/Quiz" component={Quiz} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/quiz" component={Quiz} />
       </Switch>
     </div>
   );
