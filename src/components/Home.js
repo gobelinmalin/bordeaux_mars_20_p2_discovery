@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import axios from "axios";
 
 import "../style/css/Home.css";
-//const logoSvg from "../style/logo_discovery-01.svg"
 
 class Home extends Component {
   constructor(props){
@@ -29,11 +27,6 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <nav className="NavBar">
-        <img src= "logoSvg"  alt="logo"/>
-        <Link to="/">Home</Link>
-        <Link to="/contact">Contact</Link>
-        </nav>
         <div className="Home_slide_1">
           <h1>Discovery vous aide à trouver le meilleur endroit pour poser vos valises...</h1>
           <h3>Quiz ou hasard, le choix est vôtre !</h3>
