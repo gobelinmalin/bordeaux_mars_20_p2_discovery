@@ -4,44 +4,67 @@ import { Link } from 'react-router-dom';
 
 import "../style/css/Destination.css";
 
-class Destination extends Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            picture: null
-        }
-        }
+const destinationList = [
+    {
+        name: "La Grèce",
+        description_1: "Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction. What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what! Wait a minute, where are you going?",
+        description_2: "Her resistance to the mind probe is considerable. It will be some time before we can extract any information from her. The final check-out is complete. All systems are operational. What course shall we set? Perhaps she would respond to an alternative form of persuasion. What do you mean? I think it is time we demonstrate the full power of this station. Set your course for Princess Leia's home planet of Alderaan. With pleasure.",
+    },
+    {
+        name: "Les Alpes",
+        description_1: "Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction. What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what! Wait a minute, where are you going?",
+        description_2: "Her resistance to the mind probe is considerable. It will be some time before we can extract any information from her. The final check-out is complete. All systems are operational. What course shall we set? Perhaps she would respond to an alternative form of persuasion. What do you mean? I think it is time we demonstrate the full power of this station. Set your course for Princess Leia's home planet of Alderaan. With pleasure.",
+    },
+    {
+        name: "Londres",
+        description_1: "Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction. What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what! Wait a minute, where are you going?",
+        description_2: "Her resistance to the mind probe is considerable. It will be some time before we can extract any information from her. The final check-out is complete. All systems are operational. What course shall we set? Perhaps she would respond to an alternative form of persuasion. What do you mean? I think it is time we demonstrate the full power of this station. Set your course for Princess Leia's home planet of Alderaan. With pleasure.",
+    },
+    {
+        name: "L'Ardèche",
+        description_1: "Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction. What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what! Wait a minute, where are you going?",
+        description_2: "Her resistance to the mind probe is considerable. It will be some time before we can extract any information from her. The final check-out is complete. All systems are operational. What course shall we set? Perhaps she would respond to an alternative form of persuasion. What do you mean? I think it is time we demonstrate the full power of this station. Set your course for Princess Leia's home planet of Alderaan. With pleasure.",
+    },
 
-        getPicture(){
-        axios.get("https://pixabay.com/api/")
-        //extract DATA from the received response
-        .then(response => response.data)
-        // Use this data to update the state
-        .then(data =>{
-            console.log(data)
-            this.setState({
-            picture: data.results[0]
-            })
-        })
-        }
+]
+
+class Destination extends Component {
+    state = {
+        destination0 : "",
+    }
 
     render() {
+        const { match } = this.props;
         return (
-        <div>
-            <div className="destination_head_picture">
-                <h1 className="destination_name">La Grèce</h1>
-                <h3>La Grèce</h3>
+            <div className="Destination">
+                {/*destinationList.filter((destination, index) => index === Number(match.params.id))
+                .map((destination, index) => <div></div>) */}
+
+                {destinationList.filter((destination, index) => index === Number(match.params.id))
+                .map((destination, index) => 
+                    <div className="Destination_content" key={index}>
+                        <h1>{destination.name}</h1>
+                    </div>
+                )}
+
+
+
+                
+                
+                <div className="destination_head_picture">
+                    <h1 className="destination_name">La Grèce</h1>
+                    <h3>La Grèce</h3>
+                </div>
+                <div className="destination_description_1">
+                    <h3>description 1</h3>
+                </div>
+                <div className="destination_description_2">
+                    <h3>description 2</h3>
+                </div>
+                <div className="destination_partenaire">
+                    <h3>partenaire</h3>
+                </div>
             </div>
-            <div className="destination_description_1">
-                <h3>description 1</h3>
-            </div>
-            <div className="destination_description_2">
-                <h3>description 2</h3>
-            </div>
-            <div className="destination_partenaire">
-                <h3>partenaire</h3>
-            </div>
-        </div>
         );
     }
 }
