@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/contact" component={Contact} />
         <Route path="/quiz/:id" component={Quiz} />
-        <Route path="/destination" component={Destination} />
+        <Route path="/destination/:id" component={Destination} />
       </Switch>
       <Footer />
     </div>

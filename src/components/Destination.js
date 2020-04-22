@@ -43,7 +43,20 @@ class Destination extends Component {
                 {destinationList.filter((destination, index) => index === Number(match.params.id))
                 .map((destination, index) => 
                     <div className="Destination_content" key={index}>
-                        <h1>{destination.name}</h1>
+
+                        <div className="destination_head_picture">
+                            <h1 className="destination_name">{destination.name}</h1>
+                            <h3>{destination.name}</h3>
+                        </div>
+                        <div className="destination_description_1">
+                            <h3>{destination.description_1}</h3>
+                        </div>
+                        <div className="destination_description_2">
+                            <h3>{destination.description_2}</h3>
+                        </div>
+                        <div className="destination_partenaire">
+                            <h3>partenaire</h3>
+                        </div>
                     </div>
                 )}
 
@@ -51,19 +64,6 @@ class Destination extends Component {
 
                 
                 
-                <div className="destination_head_picture">
-                    <h1 className="destination_name">La Grèce</h1>
-                    <h3>La Grèce</h3>
-                </div>
-                <div className="destination_description_1">
-                    <h3>description 1</h3>
-                </div>
-                <div className="destination_description_2">
-                    <h3>description 2</h3>
-                </div>
-                <div className="destination_partenaire">
-                    <h3>partenaire</h3>
-                </div>
             </div>
         );
     }
