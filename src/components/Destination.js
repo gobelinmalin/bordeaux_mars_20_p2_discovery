@@ -37,10 +37,7 @@ class Destination extends Component {
         const { match } = this.props;
         return (
             <div className="Destination">
-                {/*destinationList.filter((destination, index) => index === Number(match.params.id))
-                .map((destination, index) => <div></div>) */}
-
-                {destinationList.filter((destination, index) => index === Number(match.params.id))
+               {destinationList.filter((destination, index) => index === Number(match.params.id))
                 .map((destination, index) => 
                     <div className="Destination_content" key={index}>
 
@@ -55,15 +52,11 @@ class Destination extends Component {
                             <h3>{destination.description_2}</h3>
                         </div>
                         <div className="destination_partenaire">
-                            <h3>partenaire</h3>
+                            <button>partenaire</button>
                         </div>
                     </div>
                 )}
 
-
-
-                
-                
             </div>
         );
     }
