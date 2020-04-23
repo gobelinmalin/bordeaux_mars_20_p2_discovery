@@ -1,41 +1,97 @@
 .Home_slide_1 {
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   background-color: #cbf3f0;
   color: #2ec4b6;
+  height: 300px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 36px;
+  margin: 0;
+}
+
+.Home_slide_2_and_3{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 500px;
 }
 
 .Home_slide_2 {
-  padding: 50px;
-  width: 700px;
-  height: 500px;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
+<<<<<<< HEAD
+  background-image : url("https://cdn.pixabay.com/photo/2010/12/13/10/09/abstract-2384__480.jpg");
+  background-size: cover;
+  color: white;
+  flex-grow: 1;
+  padding-top: 5%;
+  padding-bottom: 6%;
+=======
   background-color: lightcyan;
   color: #2ec4b6;
-}
-.Home_slide_3 {
-  padding: 50px;
-  width: 700px;
-  text-align: center;
-  background-color: #e79c0f;
-  color: #2ec4b6;
-}
-.Home_slide_2_and_3{
-  display: flex;
-  justify-content: center;
+>>>>>>> e447caa5a2c8c2efcc441e6e0fcec6c66393c70e
 }
 
-.button_globe{
-  background-color: #4CAF50;
-   border: none;
-  color: white;
-  padding: 60px;
+.Home_slide_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
-  display: inline-block;
-  font-size: 26px;
+  color: white;
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/06/11/58/roter-sand-2042738_1280.jpg");
+  background-size: cover;
+  flex-grow: 1;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.button_quiz {
+  background-color: #2ec4b6;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 24px;
   margin: 4px 2px;
+  border-radius: 90px;
+  /*border-color: white;*/
+  border: solid;
+  text-decoration: none;
+  width: 250px;
+}
+
+.button_globe {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  text-align: center;
+  font-size: 24px;
+  margin: 4px 2px;
+  background-image: url("../../style/Globe-Vector.png");
+  background-size: cover;
+  color: white;
   border-radius: 50%;
+  border: solid;
 }
 
 @media screen and (max-width: 450px) {

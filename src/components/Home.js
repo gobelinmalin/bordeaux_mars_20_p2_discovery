@@ -34,12 +34,18 @@ class Home extends Component {
         </div>
         <div className="Home_slide_2_and_3">
           <div className="Home_slide_2">
-            <h2> Révèle-toi à moi, et tu sauras ou tu vas !</h2>
-            <Link to="/quiz/0">C'est parti pour le quiz !</Link>
+              <div>
+                <h2>Révèle-toi à moi,</h2>
+            <p>et tu sauras où tu vas !</p>
+              </div>
+            <Link to="/quiz/0" className="button_quiz">C'est parti pour le quiz !</Link>
           </div>
           <div className="Home_slide_3">
-            <h2> Pas le temps de réfléchir? Laisse le destin agir !</h2>
-            <button className="button_globe"> Lance le globe !</button>
+            <div>
+              <h2>Pas le temps de réfléchir ?</h2>
+              <p>Laisse le destin agir !</p>
+            </div>
+            <button className="button_globe">Lance le globe !</button>
           </div>
         </div>
       </div>
