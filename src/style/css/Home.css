@@ -34,17 +34,12 @@ p {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-<<<<<<< HEAD
   background-image : url("https://cdn.pixabay.com/photo/2010/12/13/10/09/abstract-2384__480.jpg");
   background-size: cover;
   color: white;
   flex-grow: 1;
   padding-top: 5%;
   padding-bottom: 6%;
-=======
-  background-color: lightcyan;
-  color: #2ec4b6;
->>>>>>> e447caa5a2c8c2efcc441e6e0fcec6c66393c70e
 }
 
 .Home_slide_3 {
