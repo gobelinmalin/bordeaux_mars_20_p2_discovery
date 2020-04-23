@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const listOfQuiz = [
   {
-    title: "J'aimerais voyagé",
-    responses: ["En famille", "En couple", "Entre amis", "Seul"]
+    title: "J'aimerais voyager",
+    responses: ["En famille", "En couple", "Entre amis", "Seul(e)"]
   },
   {
-    title: "J'aimerais voyagé",
+    title: "J'aimerais voyager",
     responses: ["A la mer", "A la montagne", "A la campagne", "En ville"]
   },
 ]
@@ -38,7 +38,7 @@ class Quiz extends Component {
                 <button onClick={() => this.handleClick(response) } key={index}>{response}</button>
               )}
             </div>
-            <Link to="/quiz/1" onClick={() => this.submitForm()}>Validé</Link>
+            <Link to="/quiz/1" onClick={() => this.submitForm()}>Valider</Link>
           </div>
         )}
       </div>
