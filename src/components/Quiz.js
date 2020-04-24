@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "../style/css/Quiz.css";
+
 import { Link } from 'react-router-dom';
 
 const listOfQuiz = [
@@ -11,6 +13,7 @@ const listOfQuiz = [
     responses: ["A la mer", "A la montagne", "A la campagne", "En ville"]
   },
 ]
+
 
 class Quiz extends Component {
   state = {
