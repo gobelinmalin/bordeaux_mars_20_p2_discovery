@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+h1 {
+  font-size: 4rem;
+
+}
+
+h2 {
+  font-size: 3rem;
+
+}
+
+h3 {
+  font-size: 2rem;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +50,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+
+  h1
+{
+  font-size: 3rem;
+}
+
 }
