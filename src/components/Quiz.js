@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 
+import "../style/css/Quiz.css";
+
 const listOfQuiz = [
   {
     title: "J'aimerais voyager",
@@ -35,10 +37,10 @@ class Quiz extends Component {
             <h1>{quiz.title}</h1>
             <div className="Quiz_responses">
               {quiz.responses.map((response, index) => 
-                <button onClick={() => this.handleClick(response) } key={index}>{response}</button>
+                <button className="Quiz_response" onClick={() => this.handleClick(response) } key={index}>{response}</button>
               )}
             </div>
-            <Link to="/quiz/1" onClick={() => this.submitForm()}>Valider</Link>
+            <Link className="Quiz_button" to="/quiz/1" onClick={() => this.submitForm()}>Valider</Link>
           </div>
         )}
       </div>
