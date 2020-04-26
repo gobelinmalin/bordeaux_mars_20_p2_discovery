@@ -5,11 +5,11 @@ import "../style/css/Quiz.css";
 
 const listOfQuiz = [
   {
-    title: "J'aimerais voyager",
+    title: "J'aimerais voyager ...",
     responses: ["En famille", "En couple", "Entre amis", "Seul(e)"]
   },
   {
-    title: "J'aimerais voyager",
+    title: "J'aimerais voyager ...",
     responses: ["A la mer", "A la montagne", "A la campagne", "En ville"]
   },
 ]
