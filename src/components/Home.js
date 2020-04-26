@@ -29,22 +29,18 @@ class Home extends Component {
     return (
       <div>
         <div className="Home_slide_1">
-          <h1>Discovery vous aide à trouver le meilleur endroit pour poser vos valises...</h1>
+          <h1>Discovery vous aide à trouver le meilleur<span>endroit pour poser vos valises...</span></h1>
           <h3>Quiz ou hasard, le choix est vôtre !</h3>
         </div>
         <div className="Home_slide_2_and_3">
           <div className="Home_slide_2">
-              <div>
-                <h2>Révèle-toi à moi,</h2>
-            <p>et tu sauras où tu vas !</p>
+              <h2>Révèle-toi à moi, <span>et tu sauras où tu vas !</span> </h2>
+              <div className="button_content">
+                <Link to="/quiz/0" className="button_quiz">C'est parti pour le quiz !</Link>
               </div>
-            <Link to="/quiz/0" className="button_quiz">C'est parti pour le quiz !</Link>
           </div>
           <div className="Home_slide_3">
-            <div>
-              <h2>Pas le temps de réfléchir ?</h2>
-              <p>Laisse le destin agir !</p>
-            </div>
+            <h2>Pas le temps de réfléchir ? <span>Laisse le destin agir !</span></h2>
             <button className="button_globe">Lance le globe !</button>
           </div>
         </div>

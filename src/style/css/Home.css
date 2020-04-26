@@ -5,79 +5,70 @@
   text-align: center;
   background-color: #cbf3f0;
   color: #2ec4b6;
-  height: 300px;
+  height: auto;
+  padding: 25px;
+  
 }
 
-h1 {
-  font-size: 48px;
+h1 span {
+  display: block;
 }
 
-h3 {
-  font-size: 24px;
-}
-
-p {
-  font-size: 36px;
-  margin: 0;
+h2 span {
+  display: block;
 }
 
 .Home_slide_2_and_3{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  height: 500px;
+  flex-wrap: nowrap;
+  height: auto;
 }
 
 .Home_slide_2 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
-<<<<<<< HEAD
   background-image : url("https://cdn.pixabay.com/photo/2010/12/13/10/09/abstract-2384__480.jpg");
   background-size: cover;
   color: white;
   flex-grow: 1;
-  padding-top: 5%;
-  padding-bottom: 6%;
-=======
-  background-color: lightcyan;
-  color: #2ec4b6;
->>>>>>> e447caa5a2c8c2efcc441e6e0fcec6c66393c70e
+  padding: 25px;
 }
 
 .Home_slide_3 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   color: white;
   background-image: url("https://cdn.pixabay.com/photo/2017/02/06/11/58/roter-sand-2042738_1280.jpg");
   background-size: cover;
   flex-grow: 1;
-  padding-top: 5%;
-  padding-bottom: 3%;
-}
-
-h2 {
-  font-size: 36px;
-  margin: 0;
+  padding: 25px;
 }
 
 .button_quiz {
-  background-color: #2ec4b6;
-  color: white;
+  background-color: white;
+  color: #2ec4b6;
   padding: 30px;
   text-align: center;
   font-size: 24px;
   margin: 4px 2px;
   border-radius: 90px;
-  /*border-color: white;*/
-  border: solid;
   text-decoration: none;
-  width: 250px;
+  width: 50%;
+  border: solid 2px #2ec4b6;
+}
+
+.button_content {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button_globe {
@@ -86,22 +77,41 @@ h2 {
   padding: 30px;
   text-align: center;
   font-size: 24px;
+  text-shadow: 2px 5px 5px black;
   margin: 4px 2px;
   background-image: url("../../style/Globe-Vector.png");
   background-size: cover;
-  color: white;
+  color:white;
   border-radius: 50%;
-  border: solid;
+  border: solid 2px white;
 }
 
+
 @media screen and (max-width: 450px) {
-  .Home_slide_1 {
-    padding: 25px;
+  .Home_slide_2_and_3{
+    flex-wrap: wrap;
+    height: auto;
   }
-  .Home_slide_1 h1 {
-    font-size: 18px;
+  
+  .button_globe {
+    font-size: 16px;
+    width: 150px;
+    height: 150px;
   }
-  .Home_slide_1 h3 {
-    font-size: 14px;
-  }   
+
+  .button_quiz {
+    font-size: 16px;
+    padding: 15px;
+    width: 70%;
+  }
+
+  .button_content {
+    width: 100%;
+    height: 150px;
+  }
+
+  span {
+    display: none;
+  }
+
 }
