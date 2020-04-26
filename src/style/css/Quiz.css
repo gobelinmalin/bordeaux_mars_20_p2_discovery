@@ -49,3 +49,14 @@ h1 {
     
      
 }
+
+
+@media only screen and (min-width: 320px) and (max-width: 800px){
+    .Quiz_responses {
+        display: none;
+    }  
+    .Quiz_response{
+        height: 100px;
+        width: 100px;
+    } 
+}
