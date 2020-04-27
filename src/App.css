@@ -55,22 +55,22 @@
   .App h1 {
     font-size: 24px;
     font-weight: 500;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   
   .App h2 {
     font-size: 20px;
     font-weight: 500;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   
   .App h3 {
     font-size: 14px;
     font-weight: 500;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 }
 
