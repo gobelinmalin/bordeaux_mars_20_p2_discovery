@@ -6,8 +6,7 @@
   background-color: #cbf3f0;
   color: #2ec4b6;
   height: auto;
-  padding: 30px 40px;
-  
+  padding: 2% 10%;
 }
 
 h2 span {
@@ -55,7 +54,7 @@ h2 span {
   margin: 4px 2px;
   border-radius: 90px;
   text-decoration: none;
-  width: 50%;
+  width: 60%;
   border: solid 2px #2ec4b6;
 }
 
