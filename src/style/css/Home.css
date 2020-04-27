@@ -6,12 +6,8 @@
   background-color: #cbf3f0;
   color: #2ec4b6;
   height: auto;
-  padding: 25px;
+  padding: 25px 40px;
   
-}
-
-h1 span {
-  display: block;
 }
 
 h2 span {
@@ -88,6 +84,7 @@ h2 span {
 
 
 @media screen and (max-width: 450px) {
+
   .Home_slide_2_and_3{
     flex-wrap: wrap;
     height: auto;
@@ -109,9 +106,4 @@ h2 span {
     width: 100%;
     height: 150px;
   }
-
-  span {
-    display: none;
-  }
-
 }
