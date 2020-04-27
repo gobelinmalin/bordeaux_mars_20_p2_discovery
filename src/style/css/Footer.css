@@ -9,7 +9,7 @@
     font-size: 12px;
   }
 
-  .NavBar_logo{
+  .Footer .NavBar_logo{
     width: auto;
     height: 12px;
     padding-left: 0.75rem;
@@ -23,7 +23,7 @@
       justify-content: center;
      }
 
-    .NavBar_logo {
+     .Footer .NavBar_logo {
       width: auto;
       height: 8px;
       padding-left: 0.4rem;
