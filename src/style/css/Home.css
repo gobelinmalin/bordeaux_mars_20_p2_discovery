@@ -6,7 +6,7 @@
   background-color: #cbf3f0;
   color: #2ec4b6;
   height: auto;
-  padding: 25px 40px;
+  padding: 30px 40px;
   
 }
 
@@ -30,7 +30,7 @@ h2 span {
   background-size: cover;
   color: white;
   flex-grow: 1;
-  padding: 25px;
+  padding: 30px;
 }
 
 .Home_slide_3 {
@@ -43,7 +43,7 @@ h2 span {
   background-image: url("https://cdn.pixabay.com/photo/2017/02/06/11/58/roter-sand-2042738_1280.jpg");
   background-size: cover;
   flex-grow: 1;
-  padding: 25px;
+  padding: 30px;
 }
 
 .button_quiz {
@@ -70,7 +70,6 @@ h2 span {
 .button_globe {
   width: 200px;
   height: 200px;
-  padding: 30px;
   text-align: center;
   font-size: 24px;
   text-shadow: 2px 5px 5px black;
@@ -80,30 +79,43 @@ h2 span {
   color:white;
   border-radius: 50%;
   border: solid 2px white;
+  margin-bottom: 1rem;
 }
 
 
 @media screen and (max-width: 450px) {
-
+  .Home_slide_1 {
+    padding: 0 20px;
+  }
   .Home_slide_2_and_3{
     flex-wrap: wrap;
     height: auto;
   }
+
+  .Home_slide_2 {
+    padding: 0 20px;
+  }
   
+  .Home_slide_3 {
+    padding: 0 20px;
+  }
+
   .button_globe {
     font-size: 16px;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0.5rem;
   }
 
   .button_quiz {
     font-size: 16px;
-    padding: 15px;
-    width: 70%;
+    padding: 12px;
+    width: 60%;
   }
 
   .button_content {
     width: 100%;
-    height: 150px;
+    height: 60px;
+    padding-bottom: 0.5rem;
   }
 }

@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-.NavBar_logo {
+.NavBar .NavBar_logo {
   width: 180px;
   height: 20px;
  }
@@ -26,7 +26,16 @@
 }
 
 @media screen and (max-width: 450px) {
+  .NavBar {
+    padding: 15px;
+  }
+  
   .NavBar_links {
     display: none;
   }
+
+  .NavBar .NavBar_logo {
+    width: 130px;
+    height: 15px;
+   }
 }
