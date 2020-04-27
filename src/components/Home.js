@@ -41,7 +41,7 @@ class Home extends Component {
                 <h2>Révèle-toi à moi,</h2>
             <p>et tu sauras où tu vas !</p>
               </div>
-            <Link to="/quiz/0" className="button_quiz">C'est parti pour le quiz !</Link>
+            <Link to="/quiz/1" className="button_quiz">C'est parti pour le quiz !</Link>
           </div>
           <div className="Home_slide_3">
             <div>
