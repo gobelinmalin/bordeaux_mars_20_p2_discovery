@@ -15,7 +15,7 @@ class Contact extends Component {
   }
 
   handleSubmit(event) {
-    alert('Ok  ' + this.state.value);
+    alert('Votre message a bien été envoyé :)  ' + this.state.value);
     event.preventDefault();
   }
 
