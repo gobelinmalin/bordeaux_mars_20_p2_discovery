@@ -1,7 +1,3 @@
-body {
-    background-image: none; /* TO-DO: remove background-image in Contact.css */
-}
-
 .destination_head_picture {
     display: flex;
     flex-direction: column;
