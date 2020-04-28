@@ -1,5 +1,29 @@
+body {
+    background-image: none; /* TO-DO: remove background-image in Contact.css */
+}
+
 .destination_head_picture {
-    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/08/15/11/29/sea-418742_960_720.jpg);
+    background-size: cover;
+    height: 635px;
+    background-position-y: 35%;
+    color: white;
+}
+
+.destination_name {
+    color: white; /* TO-DO: remove color in Quiz.css */
+    font-weight: 500;
+    font-size: 9rem;
+    margin-bottom: 10px;
+}
+
+.sub_title {
+    font-size: 3rem; 
+    margin-top: 0px;
 }
 
 .destination_description_1 {

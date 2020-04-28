@@ -43,7 +43,7 @@ class Destination extends Component {
 
                         <div className="destination_head_picture">
                             <h1 className="destination_name">{destination.name}</h1>
-                            <h3>{destination.name}</h3>
+                            <h3 className="sub_title" >est votre destination surprise</h3>
                         </div>
                         <div className="destination_description_1">
                             <h3>{destination.description_1}</h3>
