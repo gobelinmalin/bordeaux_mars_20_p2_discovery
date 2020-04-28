@@ -23,7 +23,7 @@
   justify-content: center;
   
 }
-h1 {
+.Quiz_h1 {
     color: #2EC4B6;
 }
 .Quiz_response{
@@ -65,10 +65,7 @@ h1 {
     }
     
     
-    .Quiz_content {
-         
-    }
-
+    
     .Quiz_responses {
         flex-direction: column;
         justify-content: space-evenly;
@@ -78,7 +75,7 @@ h1 {
     } 
     .Quiz_response {
         width: 600px;
-        height: 100px;
+        height: 200px;
         font-size:16px ;
     } 
 }
