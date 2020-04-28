@@ -1,0 +1,108 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_960_720.jpg');
+    color: white;
+    background-size: cover;
+}
+
+h1
+{
+    font-size: 4rem;
+}
+.container-texte-formulaire {
+    display: block;
+    justify-content: center;
+}
+
+.contact-descriptif {
+    margin: 80px;
+    font-size: large;
+}
+
+.formulaire-contact {
+	width: 700px;
+	padding: 30px;
+	margin: 50px auto;
+}
+
+.formulaire-contact input[type="text"],
+.formulaire-contact input[type="date"],
+.formulaire-contact input[type="datetime"],
+.formulaire-contact input[type="email"],
+.formulaire-contact input[type="number"],
+.formulaire-contact input[type="search"],
+.formulaire-contact input[type="time"],
+.formulaire-contact input[type="url"],
+.formulaire-contact input[type="password"],
+.formulaire-contact select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 2px solid white;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 20px 'roboto';
+    height: 45px;
+    color: white;
+}
+
+.formulaire-contact input[type="text"]:hover,
+.formulaire-contact input[type="email"]:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.formulaire-contact textarea{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 15px 10px 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    width: 97%;
+}
+
+.formulaire-contact textarea:hover{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.message {
+    text-align: left;
+    margin-top: 40px;
+    font: 20px 'roboto'
+}
+
+
+.formulaire-contact input[type="button"], 
+.formulaire-contact input[type="submit"]{
+	background-color: transparent;
+	border-color: white;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.formulaire-contact input[type="button"]:hover, 
+.formulaire-contact input[type="submit"]:hover {
+    background-color:transparent;
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
