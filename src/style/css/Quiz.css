@@ -27,7 +27,11 @@ h1 {
     color: #2EC4B6;
 }
 .Quiz_response{
-    background-color: green;
+    background: url(https://api-discoverie.herokuapp.com/api/questions) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
     font-size:36px ;
     flex-wrap: wrap;
