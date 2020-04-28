@@ -1,27 +1,33 @@
-body {
-    background-image: url('https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_960_720.jpg');
-    color: white;
-    background-size: cover;
-}
-
 h1
 {
     font-size: 4rem;
 }
+
+.background {
+    margin: 0;
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_960_720.jpg');
+    color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
+
 .container-texte-formulaire {
     display: block;
     justify-content: center;
 }
 
 .contact-descriptif {
-    margin: 80px;
-    font-size: large;
+    width: 80vw;
 }
 
 .formulaire-contact {
-	width: 700px;
-	padding: 30px;
-	margin: 50px auto;
+    width: 80vw;
+    margin: auto;
 }
 
 .formulaire-contact input[type="text"],
