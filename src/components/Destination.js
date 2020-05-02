@@ -6,26 +6,49 @@ import "../style/css/Destination.css";
 
 const destinationList = [
     {
-        name: "La Grèce",
-        description_1: "Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction. What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what! Wait a minute, where are you going?",
-        description_2: "Her resistance to the mind probe is considerable. It will be some time before we can extract any information from her. The final check-out is complete. All systems are operational. What course shall we set? Perhaps she would respond to an alternative form of persuasion. What do you mean? I think it is time we demonstrate the full power of this station. Set your course for Princess Leia's home planet of Alderaan. With pleasure.",
+    idlocation: 1,
+    name: "Londre",
+    description: "Le surnom de « ville-monde » donné à Londres ",
+    image1: "https://pixabay.com/photos/london-river-thames-aerial-view-top-3841024/",
+    image2: "https://pixabay.com/photos/national-history-museum-london-uk-4314035/",
+    image3: "https://pixabay.com/photos/city-england-captial-london-uk-731219/",
+    image4: "https://pixabay.com/photos/london-parliament-england-ben-ben-530055/",
+    language: "Anglais",
+    url: null
     },
     {
-        name: "Les Alpes",
-        description_1: "Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction. What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what! Wait a minute, where are you going?",
-        description_2: "Her resistance to the mind probe is considerable. It will be some time before we can extract any information from her. The final check-out is complete. All systems are operational. What course shall we set? Perhaps she would respond to an alternative form of persuasion. What do you mean? I think it is time we demonstrate the full power of this station. Set your course for Princess Leia's home planet of Alderaan. With pleasure.",
+    idlocation: 2,
+    name: "Alpes",
+    description: "Les Alpes du Sud, chaîne de montagnes baignées de soleil, regorgent de points de vue époustouflants. Ce massif tourné vers la Méditerranée surprend constamment par la diversité de ses paysages. Ses lacs aux eaux turquoise et ses vallées forestières, ses sommets enneigés en hiver et arides en été, offrent des panoramas exceptionnels, directement accessibles depuis ses cinq stations principales : Auron, Isola 2000, Pra Loup, Val d’Allos et Valberg.",
+    image1: "https://pixabay.com/photos/rough-horn-alpine-2146181/",
+    image2: "https://pixabay.com/photos/nature-mountains-switzerland-1547302/",
+    image3: "https://pixabay.com/photos/schilthorn-mountain-station-3033448/",
+    image4: "https://pixabay.com/photos/winter-snow-cold-white-texture-260817/",
+    language: "Française",
+    url: null
     },
     {
-        name: "Londres",
-        description_1: "Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction. What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what! Wait a minute, where are you going?",
-        description_2: "Her resistance to the mind probe is considerable. It will be some time before we can extract any information from her. The final check-out is complete. All systems are operational. What course shall we set? Perhaps she would respond to an alternative form of persuasion. What do you mean? I think it is time we demonstrate the full power of this station. Set your course for Princess Leia's home planet of Alderaan. With pleasure.",
+    idlocation: 3,
+    name: "Grèce",
+    description: "On la croit européenne, elle raisonne en orientale ; on y vient pour ses îles, mais c'est aussi l'un des pays les plus montagneux d'Europe ; la démocratie y est née, mais l'anarchie a su s'y faire une place. Aucun doute : la Grèce est la terre de tous les paradoxes. A vous de l'apprécier dans toute sa dimension. Lieu de naissance de la tragédie et de la démocratie, la Grèce peut se prévaloir d'un héritage incomparable. Des brumes d'Athènes au soleil éclatant des îles, vous pourrez contempler le centre du monde à Delphes, les innombrables colonnes de l'île sacrée de Délos, les fresques des palais minoens en Crète, et les traces de la légendaire Atlantide à Santorin.",
+    image1: "https://pixabay.com/photos/turquoise-beach-blue-myrtos-2991021/",
+    image2: "https://pixabay.com/photos/greece-village-karpathos-hill-3384386/",
+    image3: "https://pixabay.com/photos/greece-palace-parthenon-iconic-1594689/",
+    image4: "https://pixabay.com/photos/sea-bay-waterfront-beach-nice-418742/",
+    language: "Grec",
+    url: null
     },
     {
-        name: "L'Ardèche",
-        description_1: "Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction. What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what! Wait a minute, where are you going?",
-        description_2: "Her resistance to the mind probe is considerable. It will be some time before we can extract any information from her. The final check-out is complete. All systems are operational. What course shall we set? Perhaps she would respond to an alternative form of persuasion. What do you mean? I think it is time we demonstrate the full power of this station. Set your course for Princess Leia's home planet of Alderaan. With pleasure.",
-    },
-
+    idlocation: 4,
+    name: "Ardèche",
+    description: "Le département de l'Ardèche est un département français situé dans la région Auvergne-Rhône-Alpes. Sa préfecture est Privas. Il doit son nom à la rivière Ardèche qui le traverse d'ouest en est, ses habitants s'appellent les Ardéchois. Il est composé de 335 communes au 1ᵉʳ janvier 2020.",
+    image1: "https://pixabay.com/fr/photos/grotte-salamandre-ardeche-1008645/",
+    image2: "https://pixabay.com/fr/photos/ardeche-gorge-france-vacances-690656/",
+    image3: "https://pixabay.com/fr/photos/ard%C3%A8che-gravi%C3%A8res-les-vans-4188263/",
+    image4: "https://pixabay.com/fr/photos/architecture-maison-%C3%A9tendue-d-eau-3160936/",
+    language: "Française",
+    url: null
+    }
 ]
 
 class Destination extends Component {
