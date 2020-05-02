@@ -34,7 +34,11 @@ class Destination extends Component {
         listOfDestinations: []
     }
 
-
+    componentDidMount() {
+        axios.get('https://api-discoverie.herokuapp.com/api/locations')
+        .then(destination => destination.data)
+        .then(data => this.setState({listOfDestinations: data}))
+    }
 
     render() {
         const { match } = this.props;
