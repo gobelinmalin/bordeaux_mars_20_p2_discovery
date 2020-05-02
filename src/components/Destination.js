@@ -31,7 +31,10 @@ const destinationList = [
 class Destination extends Component {
     state = {
         destination0 : "",
+        listOfDestinations: []
     }
+
+
 
     render() {
         const { match } = this.props;
