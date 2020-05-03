@@ -7,14 +7,14 @@ import "../style/css/Destination.css";
 const destinationList = [
     {
     idlocation: 1,
-    name: "Londre",
+    name: "Londres",
     description: "Le surnom de « ville-monde » donné à Londres ",
-    image1: "https://pixabay.com/photos/london-river-thames-aerial-view-top-3841024/",
-    image2: "https://pixabay.com/photos/national-history-museum-london-uk-4314035/",
-    image3: "https://pixabay.com/photos/city-england-captial-london-uk-731219/",
-    image4: "https://pixabay.com/photos/london-parliament-england-ben-ben-530055/",
+    image1: "https://cdn.pixabay.com/photo/2014/11/13/23/34/london-530055_960_720.jpg",
+    image2: "https://cdn.pixabay.com/photo/2019/07/03/09/41/national-history-museum-4314035_960_720.jpg",
+    image3: "https://cdn.pixabay.com/photo/2015/04/20/13/19/city-731219_960_720.jpg",
+    image4: "https://cdn.pixabay.com/photo/2018/11/27/09/00/london-3841024_960_720.jpg",
     language: "Anglais",
-    url: null
+    url: "https://www.tripadvisor.fr/Tourism-g186338-London_England-Vacations.html"
     },
     {
     idlocation: 2,
