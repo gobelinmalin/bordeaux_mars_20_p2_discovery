@@ -41,3 +41,14 @@
     color: white;
 }
 
+.partenaire_button {
+    background: white;
+    color: #2EC4B6;
+    text-decoration: none;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    width: 450px;
+    height: 90px;
+    border-radius: 45px;
+}
