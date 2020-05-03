@@ -52,6 +52,7 @@
 }
 
 .partenaire_button {
+    cursor: pointer;
     background: white;
     color: #2EC4B6;
     text-decoration: none;
