@@ -42,6 +42,16 @@
 	font-weight: 500;
 }
 
+.images_container {
+    display: flex;
+    height: 400px;
+}
+
+.image_destination {
+    width: 50vw;
+    background-size: cover;
+}
+
 .destination_partenaire {
     display: flex;
     flex-direction: column;

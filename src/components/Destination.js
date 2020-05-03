@@ -77,6 +77,10 @@ class Destination extends Component {
                         <div className="destination_description">
                             <p className="description_text">{destination.description}</p>
                         </div>
+                        <div className="images_container">
+                            <div className="image_destination" style={{backgroundImage: `url(${destination.image2})`}}></div>
+                            <div className="image_destination" style={{backgroundImage: `url(${destination.image3})`}}></div>
+                        </div>
                         <div style={{backgroundImage: `url(${destination.image4})`}} className="destination_partenaire">
                             <p className="partenaire_text">Retrouvez nos lien partenaires <br /> si vous souhaitez planifier votre voyage</p>
                             <a href={destination.url} target="_blank" rel="noopener noreferrer" >
