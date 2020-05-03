@@ -31,5 +31,13 @@
 }
 
 .destination_partenaire {
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-size: cover;
+    height: 450px;
+    background-position-y: 70%;
+    color: white;
 }
+

@@ -77,8 +77,8 @@ class Destination extends Component {
                         <div className="destination_description_1">
                             <h3>{destination.description}</h3>
                         </div>
-                        <div className="destination_partenaire">
-                            <button>partenaire</button>
+                        <div style={{backgroundImage: `url(${destination.image4})`}} className="destination_partenaire">
+                            <button className="partenaire_button">Envolez-vous!</button>
                         </div>
                     </div>
                 )}
