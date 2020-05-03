@@ -1,9 +1,12 @@
+.Destination_content * {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .destination_head_picture {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
-    /*background-image: url(https://cdn.pixabay.com/photo/2014/08/15/11/29/sea-418742_960_720.jpg);*/
     background-size: cover;
     height: 500px;
     background-position-y: 35%;
@@ -22,19 +25,26 @@
     margin-top: 0px;
 }
 
-.destination_description_1 {
-    background-color: lightsalmon;
+.destination_description {
+    background-color: #CBF3F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
 }
 
-.destination_description_2 {
-    background-color: lightskyblue;
+.description_text {
+    width: 60vw;
+	color: black;
+	font-size: 1rem;
+	font-family: Roboto;
+	font-weight: 500;
 }
 
 .destination_partenaire {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
     background-size: cover;
     height: 450px;
     background-position-y: 70%;
@@ -45,7 +55,6 @@
     background: white;
     color: #2EC4B6;
     text-decoration: none;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     font-weight: 500;
     width: 450px;
