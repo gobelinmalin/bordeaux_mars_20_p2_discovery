@@ -70,16 +70,12 @@ class Destination extends Component {
                {destinationList.filter((destination, index) => index === Number(match.params.id))
                 .map((destination, index) => 
                     <div className="Destination_content" key={index}>
-
-                        <div className="destination_head_picture">
+                        <div style={{backgroundImage: `url(${destination.image1})`}} className="destination_head_picture">
                             <h1 className="destination_name">{destination.name}</h1>
                             <h3 className="sub_title" >est votre destination surprise</h3>
                         </div>
                         <div className="destination_description_1">
-                            <h3>{destination.description_1}</h3>
-                        </div>
-                        <div className="destination_description_2">
-                            <h3>{destination.description_2}</h3>
+                            <h3>{destination.description}</h3>
                         </div>
                         <div className="destination_partenaire">
                             <button>partenaire</button>
