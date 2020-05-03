@@ -68,6 +68,8 @@
     width: 450px;
     height: 90px;
     border-radius: 45px;
+    border: 0;
+    margin: 40px;
 }
 
 .return_to_quiz {
