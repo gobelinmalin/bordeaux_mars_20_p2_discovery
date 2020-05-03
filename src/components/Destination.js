@@ -78,7 +78,7 @@ class Destination extends Component {
                             <p className="description_text">{destination.description}</p>
                         </div>
                         <div style={{backgroundImage: `url(${destination.image4})`}} className="destination_partenaire">
-                            <p className="partenaire_text">retrouvez nos lien partenaires si vous souhaitez planifier votre voyage</p>
+                            <p className="partenaire_text">Retrouvez nos lien partenaires <br /> si vous souhaitez planifier votre voyage</p>
                             <button className="partenaire_button">Envolez-vous!</button>
                             <Link to="/quiz/1" className="return_to_quiz">je retente ma chance</Link>
                         </div>

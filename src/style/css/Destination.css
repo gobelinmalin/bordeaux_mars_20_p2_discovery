@@ -29,6 +29,7 @@
     background-color: #CBF3F0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 350px;
 }
@@ -44,11 +45,17 @@
 .destination_partenaire {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-size: cover;
     height: 450px;
     background-position-y: 70%;
     color: white;
+}
+
+.partenaire_text {
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .partenaire_button {
@@ -61,4 +68,9 @@
     width: 450px;
     height: 90px;
     border-radius: 45px;
+}
+
+.return_to_quiz {
+    color: white;
+    font-size: 1.5rem;
 }
