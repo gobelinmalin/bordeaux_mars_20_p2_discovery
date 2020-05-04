@@ -27,11 +27,12 @@
     color: #2EC4B6;
 }
 .Quiz_response{
-    background: url(https://api-discoverie.herokuapp.com/api/questions) center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url(https://api-discoverie.herokuapp.com/api/questions) center center contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     font-size:36px ;
     flex-wrap: wrap;
