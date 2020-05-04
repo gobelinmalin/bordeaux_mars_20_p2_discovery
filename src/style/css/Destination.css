@@ -16,12 +16,12 @@
 .destination_name {
     color: white; /* TO-DO: remove color in Quiz.css */
     font-weight: 500;
-    font-size: 9rem;
+    font-size: 9rem !important;
     margin-bottom: 10px;
 }
 
 .sub_title {
-    font-size: 3rem; 
+    font-size: 3rem !important; 
     margin-top: 0px;
 }
 
