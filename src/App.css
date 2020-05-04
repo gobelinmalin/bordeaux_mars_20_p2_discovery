@@ -54,14 +54,12 @@ h3 {
   }
 }
 
-
-
 @media screen and (max-width: 450px) {
 
-
-  h1
-{
-  font-size: 3rem;
-}
-
+  .App h1 {
+    font-size: 18px;
+  }
+  .App h3 {
+    font-size: 14px;
+  }   
 }

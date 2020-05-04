@@ -1,0 +1,14 @@
+.Footer {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    color:#000000;
+  }
+
+  .NavBar_logo{
+    width: 150px;
+    height: 12px;
+   }
