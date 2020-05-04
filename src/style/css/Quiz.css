@@ -1,0 +1,82 @@
+.Quiz {
+    background-color:  rgba(203, 243, 240, 0.5); 
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+ .Quiz_content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     
+ }
+
+
+.Quiz_responses {
+    display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 1000px;
+  align-content: space-around;
+  justify-content: center;
+  
+}
+.Quiz_h1 {
+    color: #2EC4B6;
+}
+.Quiz_response{
+    background: url(https://api-discoverie.herokuapp.com/api/questions) center center contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size:36px ;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 300px;
+    border-radius: 19px
+}
+.Quiz_button {
+    color: #2ec4b6;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    margin: 4px 2px;
+    border-radius: 90px;
+    text-decoration: none;
+    justify-content: flex-end;
+    width: 30%;
+    
+     
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 800px){
+
+    .Quiz {
+        background-color:  rgba(203, 243, 240, 0.5); 
+        display: flex;
+        justify-content: center;
+         
+    }
+    
+    
+    
+    .Quiz_responses {
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        
+         
+    } 
+    .Quiz_response {
+        width: 600px;
+        height: 150px;
+        font-size:16px ;
+    } 
+}
