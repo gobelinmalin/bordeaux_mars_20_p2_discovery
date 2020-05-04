@@ -23,11 +23,15 @@
   justify-content: center;
   
 }
-h1 {
+.Quiz_h1 {
     color: #2EC4B6;
 }
 .Quiz_response{
-    background-color: green;
+    background: url(https://api-discoverie.herokuapp.com/api/questions) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
     font-size:36px ;
     flex-wrap: wrap;
@@ -61,10 +65,7 @@ h1 {
     }
     
     
-    .Quiz_content {
-         
-    }
-
+    
     .Quiz_responses {
         flex-direction: column;
         justify-content: space-evenly;
@@ -74,7 +75,7 @@ h1 {
     } 
     .Quiz_response {
         width: 600px;
-        height: 100px;
+        height: 150px;
         font-size:16px ;
     } 
 }

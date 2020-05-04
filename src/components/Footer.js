@@ -8,9 +8,8 @@ import "../style/css/Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="Footer">
-        <div className="Footer">
-        <Link className="Footer" to="/contact">
+    <footer>
+        <Link to="/contact" className="Footer">
             <p>Made with 
             <span role="img" aria-label="arraw-heart">&#x1F498;</span>
           by the 
@@ -18,8 +17,6 @@ const Footer = () => {
          Team
         </p>
         </Link>
-            
-        </div>
     </footer>
   )
 

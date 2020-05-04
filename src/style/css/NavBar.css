@@ -6,20 +6,129 @@
   justify-content: space-between;
 }
 
-.NavBar_logo{
+.NavBar .NavBar_logo {
   width: 180px;
   height: 20px;
  }
 
- .NavBar_links {
+.NavBar_links {
   display: flex;
   align-items: center;
   justify-content: space-between;
- }
+}
 
- .NavBar_link {
-   margin: 0 10px;
-   text-decoration: none;
-   color:#000000;
-   font-weight: 500;
- }
+.NavBar_link {
+  margin: 0 10px;
+  text-decoration: none;
+  color:#000000;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.NavBar_burger_content {
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  .NavBar {
+    padding: 0;
+  }
+  
+  .NavBar_links {
+    display: none;
+  }
+
+  .NavBar .NavBar_logo {
+    width: 130px;
+    height: 15px;
+    padding-left: 1rem;
+   }
+
+  .NavBar_burger_content {
+    position: relative;
+    display: block;
+
+   }
+
+   .Open_burger_button {
+    font-size: 25px; 
+    position: relative;
+    z-index: 99;
+    padding-right: 1rem;
+    cursor: pointer;
+    border: none;
+    color: #DADADA;
+   }
+  
+  .NavBar_burger_list {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: -52vw;
+    background-color: #2ec4b6;
+    z-index: 999;
+    margin: 0;
+  }
+
+  .NavBar_burger_link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .NavBar_burger_link:hover {
+    color: #2ec4b6;
+    background-color: white;
+  }
+
+  .NavBar_burger_icon {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .NavBar_burger_icon:hover {
+    color: #2ec4b6;
+    background-color: white;
+  }
+
+  .Close_burger_button {
+    font-size: 30px; 
+    position: relative;
+    z-index: 99;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: #2ec4b6;
+    color: white;
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .Open_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+  }
+}

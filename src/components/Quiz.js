@@ -64,7 +64,7 @@ class Quiz extends Component {
         {listOfQuiz.filter((quiz, index) => quiz.idquestion === Number(match.params.id))
         .map((quiz, index) => 
           <div className="Quiz_content" key={index}>
-            <h1>{quiz.text}</h1>
+            <h1 className="Quiz_h1">{quiz.text}</h1>
             <div className="Quiz_responses">
               {listOfResponse.map((response, index) => 
 
