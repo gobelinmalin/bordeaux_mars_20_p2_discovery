@@ -1,15 +1,88 @@
+.Destination_content * {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .destination_head_picture {
-    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-size: cover;
+    height: 500px;
+    background-position-y: 35%;
+    color: white;
 }
 
-.destination_description_1 {
-    background-color: lightsalmon;
+.destination_name {
+    color: white; /* TO-DO: remove color in Quiz.css */
+    font-weight: 500;
+    font-size: 9rem;
+    margin-bottom: 10px;
 }
 
-.destination_description_2 {
-    background-color: lightskyblue;
+.sub_title {
+    font-size: 3rem; 
+    margin-top: 0px;
+}
+
+.destination_description {
+    background-color: #CBF3F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.description_text {
+    width: 60vw;
+	color: black;
+	font-size: 1rem;
+	font-family: Roboto;
+	font-weight: 500;
+}
+
+.images_container {
+    display: flex;
+    height: 400px;
+}
+
+.image_destination {
+    width: 50vw;
+    background-size: cover;
 }
 
 .destination_partenaire {
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 450px;
+    background-position-y: 70%;
+    color: white;
+}
+
+.partenaire_text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.partenaire_button {
+    cursor: pointer;
+    background: white;
+    color: #2EC4B6;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 500;
+    width: 450px;
+    height: 90px;
+    border-radius: 45px;
+    border: 0;
+    margin: 40px;
+}
+
+.return_to_quiz {
+    color: white;
+    font-size: 1.5rem;
 }
