@@ -36,10 +36,35 @@ class Quiz extends Component {
     localStorage.setItem(`${match.params.id}`, quiz)
 
    if(nextPage === 6) {
-     if(localStorage.getItem("1") === "en famille" && localStorage.getItem("2") === "à la mer" ) {
-      history.push(`/destination/0`)
-     } else {
-      history.push(`/destination/1`)
+     if(localStorage.getItem("2") === "en ville" ) {
+      if(localStorage.getItem("3") !== "à pied, à vélo" ) {
+        if(localStorage.getItem('4') === "luxe"  ||  localStorage.getItem('4') === "no limit") {
+          if(localStorage.getItem("5") === "en Europe" || localStorage.getItem("5") === "partout") {
+            history.push(`/destination/0`) // Londres
+          }
+        }
+      }
+     } 
+     else if(localStorage.getItem("2") === "à la montagne" ) {
+      if(localStorage.getItem("3") !== "à pied, à vélo" ) {
+        if(localStorage.getItem('4') === "moyen"  ||  localStorage.getItem('4') === "luxe") {
+          history.push(`/destination/1`) // Alpes
+        }
+      }
+     }
+     else if(localStorage.getItem("2") === "à la mer" ) {
+      if(localStorage.getItem("3") === "en avion" ) {
+        if(localStorage.getItem("5") !== "en France" || localStorage.getItem("5") !== "dans l'espace") {
+          history.push(`/destination/2`) // Grèce
+        }
+      }
+     }
+     else if(localStorage.getItem("2") === "à la campagne" ) {
+      if(localStorage.getItem('4') === "limité"  ||  localStorage.getItem('4') === "moyen") { 
+        if(localStorage.getItem("5") === "en France" ) {
+          history.push(`/destination/3`) // Ardèche
+        }
+      }
      }
    } else {
     history.push(`/quiz/${nextPage}`)
