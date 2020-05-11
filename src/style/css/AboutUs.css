@@ -1,16 +1,14 @@
 .AboutUs {
-    background-color: #CBF3F0; 
+    background-color: #CBF3F0;
     background-size: cover;
     color:black;
     height: 90vh;
 }
 .AboutUsTitle {
     text-align: center;
-
 }
 .AboutUs h1 {
-    margin: 0;
-    padding: 5%;
+    padding: 3%;
 }
 
 .AboutUs-descriptif {

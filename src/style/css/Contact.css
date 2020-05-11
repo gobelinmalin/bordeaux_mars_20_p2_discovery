@@ -2,21 +2,38 @@
     background-image: url('https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_960_720.jpg');
     color: white;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.background_image h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    
 }
 
 .Contact_container-texte-formulaire {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 50px auto;
+   
 }
 
 .Contact_contact-descriptif {
-    margin: 80px;
+    padding: 30px;
     font-size: large;
+    width: 60vw;
+    display: flex;
+    
+
 }
 
 .Contact_formulaire-contact {
-	width: 700px;
+	width: 60vw;
 	padding: 30px;
 	margin: 50px auto;
 }

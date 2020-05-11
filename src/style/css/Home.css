@@ -22,6 +22,7 @@ h2 span {
   display: flex;
   flex-wrap: nowrap;
   height: 50vh;
+  
 }
 
 .Home_slide_2 {
@@ -34,7 +35,7 @@ h2 span {
   background-size: cover;
   color: white;
   flex-grow: 1;
-  padding: 30px;
+  padding-top: 4%;
  
 }
 
@@ -48,7 +49,7 @@ h2 span {
   background-image: url("https://cdn.pixabay.com/photo/2017/02/06/11/58/roter-sand-2042738_1280.jpg");
   background-size: cover;
   flex-grow: 1;
-  padding: 30px;
+  padding-top: 4%;
 }
 
 .button_quiz {
