@@ -1,21 +1,29 @@
 .Footer {
-    padding-right: 20px;
+    width: 100%;
     background-color: white;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
     text-decoration: none;
     color:#000000;
     font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    margin: 0;
   }
 
   .Footer .NavBar_logo{
-    width: auto;
     height: 12px;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
    }
+
+  .Footer p {
+    padding-right: 2rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
 
    @media screen and (max-width: 450px) {
     .Footer {

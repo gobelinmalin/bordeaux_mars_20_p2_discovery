@@ -9,7 +9,7 @@ import "../style/css/Footer.css";
 const Footer = () => {
   return (
     <footer>
-        <Link to="/contact" className="Footer">
+        <Link to="/" className="Footer">
             <p>Made with 
             <span role="img" aria-label="arraw-heart">&#x1F498;</span>
           by the 
