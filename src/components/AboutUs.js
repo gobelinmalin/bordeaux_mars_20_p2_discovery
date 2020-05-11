@@ -10,7 +10,7 @@ class AboutUs extends Component {
   render() {
     return (
       <div className="AboutUs">
-        <h1>About Us</h1>
+        <h1 className="AboutUsTitle">About Us</h1>
         <div className="AboutUs-descriptif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
         <div className="AboutUs-container">
           <div className="Profil" ><img className="image" src={Logo1} alt="Logo" /><p>Toujours prête pour partir à l’aventure !</p></div>
