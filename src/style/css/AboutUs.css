@@ -1,36 +1,36 @@
 .AboutUs {
-    background: url("https://cdn.pixabay.com/photo/2015/11/07/11/28/people-1031169_960_720.jpg") no-repeat; 
+    background-color: #CBF3F0;
     background-size: cover;
-    color:white;
-    height: 100%;
+    color:black;
+    height: 90vh;
 }
-
+.AboutUsTitle {
+    text-align: center;
+}
 .AboutUs h1 {
-    margin: 0;
-    padding : 15px;
+    padding: 3%;
 }
 
 .AboutUs-descriptif {
-    margin: 40px;
+    margin-bottom: 40px;
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
 }
 
 .AboutUs-container {
     display: flex;
     flex-direction: row;
     margin: 20px;
-    margin-top: 100px;
     justify-content: center;
 }
 
 .image {
     overflow: hidden;
     border-radius: 67%;
-    width: 80%;
-    height: 80%;
+    width: 20vw;
+    height: 20vw;
     margin-bottom: 30px;
-
 }
 
 .image:hover {
@@ -41,6 +41,11 @@
 
 .Profil {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 /*VERSION MOBILE */
@@ -48,7 +53,6 @@
 @media screen and (max-width: 450px) {
     .AboutUs {
         background-size: cover;
-        color:white;
         height: auto;
         width: auto;
     }
@@ -60,7 +64,6 @@
 }
 .image {
     margin-top: 10px;
-    width: 100%;
 }
 
 }
