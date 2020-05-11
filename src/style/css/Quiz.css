@@ -1,8 +1,7 @@
 .Quiz {
     background-color:  rgba(203, 243, 240, 0.5); 
     display: flex;
-    justify-content: center;
-    height: 800px;
+    justify-content: center;   
 }
 
  .Quiz_content {
@@ -10,24 +9,24 @@
      flex-direction: column;
      align-items: center;
      width: 100%;
-     
+   
  }
 
 
 .Quiz_responses {
     display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 1000px;
-  align-content: space-around;
-  justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 1000px;
+    align-content: space-around;
+    justify-content: center;
   
 }
 .Quiz_h1 {
     color: #2EC4B6;
 }
 .Quiz_response{
-    background: url(https://api-discoverie.herokuapp.com/api/questions) center center contain;
+    background: center center contain;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -35,19 +34,21 @@
     background-repeat: no-repeat;
     color: white;
     font-size:36px ;
-    flex-wrap: wrap;
-    width: 500px;
-    height: 300px;
-    border-radius: 19px
+    flex-wrap: nowrap;
+    width: 40vw;
+    height: 500px;
+    border-radius: 19px;
+    margin:10px;
 }
 .Quiz_button {
     color: #2ec4b6;
     background-color: white;
     padding: 10px;
     text-align: center;
-    font-size: 24px;
-    margin: 4px 2px;
+    font-size: 2rem;
+    margin: 30px;
     border-radius: 90px;
+    border:#2ec4b6 3px solid;
     text-decoration: none;
     justify-content: flex-end;
     width: 30%;
@@ -62,21 +63,20 @@
         background-color:  rgba(203, 243, 240, 0.5); 
         display: flex;
         justify-content: center;
-         
+        height: 80vh;
     }
     
-    
-    
     .Quiz_responses {
-        flex-direction: column;
-        justify-content: space-evenly;
-
         
-         
+       
+
     } 
+
     .Quiz_response {
-        width: 600px;
-        height: 150px;
-        font-size:16px ;
+     height: 20vh;
+     font-size: 1.5rem;
     } 
+    .Quiz_button {
+        font-size: 1rem;
+    }
 }
