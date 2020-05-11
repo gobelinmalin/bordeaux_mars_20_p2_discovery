@@ -1,3 +1,7 @@
+.Home {
+  height: 80vh;
+}
+
 .Home_slide_1 {
   display: flex;
   flex-direction: column;
@@ -7,6 +11,7 @@
   color: #2ec4b6;
   height: auto;
   padding: 2% 10%;
+  height: 30vh;
 }
 
 h2 span {
@@ -16,7 +21,7 @@ h2 span {
 .Home_slide_2_and_3{
   display: flex;
   flex-wrap: nowrap;
-  height: auto;
+  height: 50vh;
 }
 
 .Home_slide_2 {
@@ -29,7 +34,6 @@ h2 span {
   background-size: cover;
   color: white;
   flex-grow: 1;
- 
   padding: 30px;
  
 }

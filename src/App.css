@@ -3,6 +3,8 @@
   font-family: 'Roboto', 'Oxygen',
    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
    sans-serif;
+   min-height: 100%;
+   position: relative;
 }
 .App-logo {
   height: 40vmin;
