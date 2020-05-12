@@ -1,7 +1,3 @@
-.Home {
-  height: 100%;
-}
-
 .Home h1 {
   padding-top: 2%;
 }
@@ -97,17 +93,19 @@ h2 span {
 
 
 @media screen and (max-width: 450px) {
-  .Home {
-    height: 100%;
-  }
-
-  .Home_slide_1 {
-    height: min-content;
-  }
 
   .Home_slide_2_and_3{
     flex-wrap: wrap;
-    height: min-content;
+  }
+
+  .Home_slide_2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Home_slide_3 {
+    display: flex;
+    justify-content: center;
   }
 
   .button_globe {
