@@ -31,6 +31,7 @@
     -o-background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
+
     color: white;
     font-size: 36px ;
     flex-wrap: nowrap;
@@ -39,6 +40,13 @@
     border-radius: 19px;
     margin:10px;
 }
+
+.Quiz_text_responses {
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 3px;
+    border-radius: 3px;
+}
+
 .Quiz_button {
     color: #2ec4b6;
     background-color: white;
