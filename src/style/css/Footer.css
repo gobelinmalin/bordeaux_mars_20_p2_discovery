@@ -8,8 +8,9 @@
     font-size: 12px;
     position: absolute;
     bottom: 0;
-    height: 50px;
-    margin: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
   }
 
   .Footer .NavBar_logo{
@@ -27,14 +28,20 @@
 
    @media screen and (max-width: 450px) {
     .Footer {
-      font-size: 8px;
+      font-size: 0.5rem;
       justify-content: center;
+      height: 35px;
      }
 
      .Footer .NavBar_logo {
-      width: auto;
       height: 8px;
       padding-left: 0.4rem;
       padding-right: 0.4rem;
      }
+
+     .Footer p {
+      padding-right: 0;
+    }
+
+
    }
