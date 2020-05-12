@@ -37,14 +37,18 @@
     flex-wrap: nowrap;
     width: 35vw;
     height: 30vh;
-    border-radius: 19px;
+    border-radius: 20px;
     margin: 20px;
 }
 
 .Quiz_text_responses {
-    background-color: rgba(0, 0, 0, 0.74);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 3px;
-    border-radius: 3px;
+    border-radius: 20px;
+    height: 100%;
 }
 
 .Quiz_button {
