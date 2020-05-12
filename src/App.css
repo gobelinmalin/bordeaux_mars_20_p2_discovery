@@ -12,17 +12,17 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation4 App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
-  background-3olor: #282c34;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-con2ent: center;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
