@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    height: 1000px;
+    height: 100%;
     align-content: space-around;
     justify-content: center;
   
@@ -35,10 +35,10 @@
     color: white;
     font-size: 36px ;
     flex-wrap: nowrap;
-    width: 40vw;
-    height: 500px;
+    width: 35vw;
+    height: 30vh;
     border-radius: 19px;
-    margin:10px;
+    margin: 20px;
 }
 
 .Quiz_text_responses {
