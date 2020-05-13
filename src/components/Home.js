@@ -40,8 +40,9 @@ class Home extends Component {
               </div>
           </div>
           <div className="Home_slide_3">
-            <h2>Pas le temps de réfléchir ? <span>Laisse le destin agir !</span></h2>
             <button className="button_globe">Lance le globe !</button>
+            <h2>Pas le temps de réfléchir ? <span>Laisse le destin agir !</span></h2>
+            
           </div>
           </div>
         </div>
