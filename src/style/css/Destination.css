@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 50px;
     background-size: cover;
     height: 500px;
@@ -21,7 +22,7 @@
 }
 
 .sub_title {
-    font-size: 3rem !important; 
+    font-size: 2rem !important; 
     margin-top: 0px;
 }
 

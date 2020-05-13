@@ -25,8 +25,8 @@ class Destination extends Component {
                 .map((destination, index) => 
                     <div className="Destination_content" key={index}>
                         <div style={{backgroundImage: `url(${destination.image1})`}} className="destination_head_picture">
+                            <h3 className="sub_title" >Votre destination surprise est</h3>
                             <h1 className="destination_name">{destination.name}</h1>
-                            <h3 className="sub_title" >est votre destination surprise</h3>
                         </div>
                         <div className="destination_description">
                             <p className="description_text">{destination.description}</p>
