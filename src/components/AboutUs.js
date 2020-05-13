@@ -13,10 +13,10 @@ class AboutUs extends Component {
         <h1 className="AboutUsTitle">A propos</h1>
         <div className="AboutUs-descriptif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
         <div className="AboutUs-container">
-          <div className="Profil" ><img className="image" src={Logo1} alt="Logo" /><p>Toujours prête pour partir à l’aventure !</p></div>
-          <div className="Profil" ><img className="image" src={Logo2} alt="Logo" /><p>En recherche permanente de nouvelles soirées à travers le monde !</p></div>
-          <div className="Profil" ><img className="image" src={Logo3} alt="Logo" /><p>Je ne fais que de longs voyages romantiques ! Toujours un peignoir de soie dans la valise.</p></div>
-          <div className="Profil" ><img className="image" src={Logo4} alt="Logo" /><p>Voyage pour manger et mange pour voyager.</p></div>
+          <div className="Profil" ><img className="image" src={Logo1} alt="Logo" /><h3>Christelle</h3><p>Toujours prête pour partir à l’aventure !</p></div>
+          <div className="Profil" ><img className="image" src={Logo2} alt="Logo" /><h3>Enzo</h3><p>En recherche permanente de nouvelles soirées à travers le monde !</p></div>
+          <div className="Profil" ><img className="image" src={Logo3} alt="Logo" /><h3>François</h3><p>Je ne fais que de longs voyages romantiques ! Toujours un peignoir de soie dans la valise.</p></div>
+          <div className="Profil" ><img className="image" src={Logo4} alt="Logo" /><h3>Thomas</h3><p>Voyage pour manger et mange pour voyager.</p></div>
         </div>
       </div>
     );

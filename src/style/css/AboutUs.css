@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: row;
     margin: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .image {
@@ -30,7 +30,8 @@
     border-radius: 67%;
     width: 20vw;
     height: 20vw;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
+    border: solid 2px white;
 }
 
 .image:hover {
@@ -40,7 +41,7 @@
 }
 
 .Profil {
-    width: 50%;
+    width: 20vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,18 +53,27 @@
 
 @media screen and (max-width: 450px) {
     .AboutUs {
-        background-size: cover;
         height: auto;
         width: auto;
     }
 
-.AboutUs-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.image {
-    margin-top: 10px;
-}
+    .AboutUs-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutUs-descriptif {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+    }
+   
+
+    .image {
+        margin-top: 10px;
+        width: 40vw;
+        height: 40vw;
+    }
 
 }
