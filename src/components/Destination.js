@@ -30,6 +30,7 @@ class Destination extends Component {
                         </div>
                         <div className="destination_description">
                             <p className="description_text">{destination.description}</p>
+                            <div style={{backgroundImage: `url(${destination.image1})`}} className="description_background"></div>
                         </div>
                         <div className="images_container">
                             <div className="image_destination" style={{backgroundImage: `url(${destination.image2})`}}></div>
