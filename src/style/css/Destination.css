@@ -26,21 +26,38 @@
 }
 
 .destination_description {
-    background-color: #CBF3F0;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 350px;
+    position: relative;
 }
 
 .description_text {
-    width: 60vw;
-	color: black;
-	font-size: 1rem;
-	font-family: Roboto;
-    font-weight: 500;
+    position: absolute;
+    z-index: 42;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+	color: white;
+	font-size: 1rem;
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(30px) brightness(0.5);
+    margin: 0 ;
+    padding: 0 20%;
+    box-sizing: border-box;
+}
+
+.description_background {
+    height: 350px;
+    width: 100%;
+    background-position-y: 100%;
 }
 
 .images_container {
@@ -56,12 +73,32 @@
 .destination_partenaire {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     background-size: cover;
     height: 450px;
     background-position-y: 70%;
     color: white;
+    position: relative;
+}
+
+.partenaire_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px) brightness(0.7);
+    font-family: Roboto;
+    color: white;
+    z-index: 42;
+    position: absolute;
+    width: 100%;
+    height: 380px;
+}
+
+.background_partenaire {
+    height: 450px;
+    background-size: cover;
+    background-position-y: 100%;
 }
 
 .partenaire_text {
@@ -82,7 +119,22 @@
     border-radius: 45px;
     border: 0;
     margin: 40px;
+    border: solid 3px transparent;
+    transition: background-color .2s linear, border .2s linear;
 }
+
+.partenaire_button:hover {
+    background-color: #CBF3F0;
+    border: solid 3px #2EC4B6;
+}
+
+.partenaire_button:active {
+    background-color: #2EC4B6;
+    border: solid 3px #2EC4B6;
+    color: white;
+}
+
+.partenaire_button:focus {outline:0;}
 
 .return_to_quiz {
     color: white;
