@@ -25,6 +25,12 @@ class Home extends Component {
     })
   }
 
+  randomDestination() {
+    const { history } = this.props;
+    const randomNumber = Math.floor(Math.random() * 4);
+    history.push(`/destination/${randomNumber}`);
+  }
+
   render() {
     return (
       <div className="Home">
@@ -40,9 +46,8 @@ class Home extends Component {
               </div>
           </div>
           <div className="Home_slide_3">
-            <button className="button_globe">Lance le globe !</button>
             <h2>Pas le temps de réfléchir ? <span>Laisse le destin agir !</span></h2>
-            
+            <button className="button_globe" onClick={() => this.randomDestination()}>Lance le globe !</button>
           </div>
           </div>
         </div>

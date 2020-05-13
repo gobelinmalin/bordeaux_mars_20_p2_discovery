@@ -9,7 +9,10 @@ import "../style/css/NavBar.css";
 const NavBar = () => {
   return (
     <nav className="NavBar">
-      <img src={logoSvg} className="NavBar_logo"  alt="logo"/>
+      <Link to="/" >
+        <img src={logoSvg} className="NavBar_logo"  alt="logo"/>
+      </Link>
+      
       
       <div className="NavBar_links">
         <Link className="NavBar_link" to="/">Accueil</Link>
