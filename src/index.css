@@ -15,7 +15,7 @@ body {
   font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
+    background-color: #cbf3f0;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   min-height: 100%;
