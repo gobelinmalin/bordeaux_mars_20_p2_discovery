@@ -36,12 +36,15 @@ class Destination extends Component {
                             <div className="image_destination" style={{backgroundImage: `url(${destination.image2})`}}></div>
                             <div className="image_destination" style={{backgroundImage: `url(${destination.image3})`}}></div>
                         </div>
-                        <div style={{backgroundImage: `url(${destination.image4})`}} className="destination_partenaire">
-                            <p className="partenaire_text">Retrouvez nos liens partenaires <br /> si vous souhaitez planifier votre voyage</p>
-                            <a href={destination.url} target="_blank" rel="noopener noreferrer" >
-                                <button className="partenaire_button">Envolez-vous!</button>
-                            </a>
-                            <Link to="/quiz/1" className="return_to_quiz">je retente ma chance</Link>
+                        <div className="destination_partenaire">
+                            <div className="partenaire_content">
+                                <p className="partenaire_text">Retrouvez nos liens partenaires <br /> si vous souhaitez planifier votre voyage</p>
+                                <a href={destination.url} target="_blank" rel="noopener noreferrer" >
+                                    <button className="partenaire_button">Envolez-vous!</button>
+                                </a>
+                                <Link to="/quiz/1" className="return_to_quiz">je retente ma chance</Link>
+                            </div>
+                            <div style={{backgroundImage: `url(${destination.image4})`}} className="background_partenaire"></div>
                         </div>
                     </div>
                 )}
