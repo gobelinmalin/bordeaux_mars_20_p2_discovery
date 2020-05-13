@@ -26,6 +26,10 @@
   font-size: 14px;
 }
 
+.NavBar_link:hover {
+  color: #2ec4b6;
+}
+
 @media screen and (max-width: 450px) {
   .NavBar {
     padding: 0;

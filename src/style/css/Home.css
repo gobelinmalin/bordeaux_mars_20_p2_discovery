@@ -76,6 +76,13 @@ h2 span {
   border: solid 2px #2ec4b6;
 }
 
+.button_quiz:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+
 .button_content {
   width: 50%;
   height: 250px;
@@ -97,6 +104,16 @@ h2 span {
   color:white;
   border-radius: 50%;
   border: solid 2px white;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+.button_globe:hover {
+  -webkit-transform: scale(0.5);
+	transform: scale(0.5);
 }
 
 
