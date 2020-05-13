@@ -28,7 +28,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color:a#61dafb;
 }
 
 .App h1 {
@@ -62,7 +62,6 @@
     font-size: 1rem;
   }
 }
-
 
 @keyframes App-logo-spin {
   from {
