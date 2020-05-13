@@ -89,19 +89,19 @@ class Quiz extends Component {
         {listOfQuiz.filter((quiz, index) => quiz.idquestion === Number(match.params.id))
         .map((quiz, index) => 
           <div className="Quiz_content" key={index}>
-            <h1 className="Quiz_h1">{quiz.text}</h1>
-            <div className="Quiz_responses">
-              {listOfResponse.map((response, index) => 
-                <button 
-                  style={{backgroundImage: `url(${response.image})`}} 
-                  className="Quiz_response" 
-                  onClick={() => this.handleClick(response, index) } 
-                  key={index}>
-                    <p className="Quiz_text_responses">{response.text}</p>
-                </button>
-              )}
+              <h1 className="Quiz_h1">{quiz.text}</h1>
+              <div className="Quiz_responses">
+                {listOfResponse.map((response, index) => 
+                  <button 
+                    style={{backgroundImage: `url(${response.image})`}} 
+                    className="Quiz_response" 
+                    onClick={() => this.handleClick(response, index) } 
+                    key={index}>
+                      <p className="Quiz_text_responses">{response.text}</p>
+                  </button>
+                )}
             </div>
-            <Link className="Quiz_button" onClick={() => this.submitForm()}>Valider</Link>
+              <Link className="Quiz_button" onClick={() => this.submitForm()}>Valider</Link> 
           </div>
         )}
       </div>
