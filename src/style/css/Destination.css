@@ -119,7 +119,22 @@
     border-radius: 45px;
     border: 0;
     margin: 40px;
+    border: solid 3px transparent;
+    transition: background-color .2s linear, border .2s linear;
 }
+
+.partenaire_button:hover {
+    background-color: #CBF3F0;
+    border: solid 3px #2EC4B6;
+}
+
+.partenaire_button:active {
+    background-color: #2EC4B6;
+    border: solid 3px #2EC4B6;
+    color: white;
+}
+
+.partenaire_button:focus {outline:0;}
 
 .return_to_quiz {
     color: white;
