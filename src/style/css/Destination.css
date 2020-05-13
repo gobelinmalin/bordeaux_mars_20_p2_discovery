@@ -58,6 +58,7 @@
     height: 350px;
     width: 100%;
     background-position-y: 100%;
+    background-size: cover;
 }
 
 .images_container {
