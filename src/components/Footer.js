@@ -8,15 +8,17 @@ import "../style/css/Footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-        <Link to="/" className="Footer">
-            <p>Made with 
+    <footer className="Footer">
+        
+          <p>Made with 
             <span role="img" aria-label="arraw-heart">&#x1F498;</span>
           by the 
-        <img src={logoSvg} className="NavBar_logo"  alt="logo"/>
+              <Link to="/" >
+                <img src={logoSvg} className="NavBar_logo"  alt="logo"/>
+              </Link>
          Team
-        </p>
-        </Link>
+          </p>
+        
     </footer>
   )
 
