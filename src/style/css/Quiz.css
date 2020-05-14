@@ -1,6 +1,7 @@
 .Quiz { 
     display: flex;
-    justify-content: center;   
+    justify-content: center;
+      
 }
 
  .Quiz_content {
@@ -8,7 +9,8 @@
      flex-direction: column;
      align-items: center;
      width: 100%;
-     height: 90vh;
+     height: 70%;
+     padding-bottom: 70px;
      background-color: #cbf3f0;
  }
 
@@ -40,7 +42,7 @@
     width: 35vw;
     height: 30vh;
     border-radius: 20px;
-    margin: 20px;
+    margin: O.5rem;
 }
 
 .Quiz_text_responses {
@@ -69,11 +71,15 @@
 
 @media only screen and (min-width: 320px) and (max-width: 800px){
 
+    .Quiz_content {
+        padding-bottom: 0;
+    }
+
     .Quiz_response {
      height: 30vh;
      font-size: 1.5rem;
      background-position: center;
-     margin: 5px;
+     margin: 0.2rem;
     }
 
     .Quiz_button {

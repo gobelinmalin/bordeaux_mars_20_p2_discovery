@@ -8,10 +8,12 @@
     align-items: center;
     justify-content: space-around;
     height: 90vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .Contact_contact-descriptif {
-    font-size: large;
+    font-size: 1.5rem;
     width: 60vw;
     color: #2ec4b6;
     background-color:white;
