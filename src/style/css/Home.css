@@ -1,18 +1,168 @@
+.Home h1 {
+  padding-top: 2%;
+}
+
+.Home h3 {
+  padding: 2%;
+}
+
 .Home_slide_1 {
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   background-color: #cbf3f0;
   color: #2ec4b6;
+  height: 30vh;
+  padding: 2%;
 }
 
+h2 span {
+  display: block;
+}
+
+.Home_slide_2_and_3{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 54vh;
+  background-color: #cbf3f0;
+  justify-content: center;
+  align-content: center;
+}
+
+.Home_slide_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background-image : url("https://cdn.pixabay.com/photo/2015/03/09/18/34/maldives-666122__480.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  width: 50vw;
+  padding-top: 3%;
+  border-radius: 19px;
+  margin: 1% 0 1% 1%;
+}
+
+.Home_slide_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url("https://cdn.pixabay.com/photo/2020/02/11/23/00/explore-4841170__480.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 50vw;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  border-radius: 19px;
+  margin: 1%;
+}
+
+.button_quiz {
+  background-color: white;
+  opacity: 0.9;
+  color: #2ec4b6;
+  padding: 30px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 90px;
+  text-decoration: none;
+  width: 100%;
+  border: solid 2px #2ec4b6;
+}
+
+.button_quiz:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+
+.button_content {
+  width: 50%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_globe {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 28px;
+  text-shadow: 2px 5px 5px black;
+  background-image: url("../../style/Globe-Vector.png");
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  color:white;
+  border-radius: 50%;
+  border: solid 2px white;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+.button_globe:hover {
+  -webkit-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+
 @media screen and (max-width: 450px) {
+  .Home h1 {
+    padding-top: 2%;
+  }
+  
+  .Home h3 {
+    padding-top: 2%;
+  }
+  
   .Home_slide_1 {
-    padding: 25px;
+    height: 26vh;
+    padding: 2%;
   }
-  .Home_slide_1 h1 {
-    font-size: 18px;
+  .Home_slide_2_and_3{
+    flex-wrap: wrap;
   }
-  .Home_slide_1 h3 {
-    font-size: 14px;
+
+  .Home_slide_2 {
+    display: flex;
+    height: 30vh;
+    width: 80vw;
+    margin: 1% 0 2% 1%;
   }
+
+  .Home_slide_3 {
+    display: flex;
+    height: 30vh;
+    width: 80vw;
+  }
+
+  .button_globe {
+    font-size: 0.8rem;
+    width: 120px;
+    height: 120px;
+  }
+
+  .button_quiz {
+    font-size: 0.8rem;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .button_content {
+    width: 100%;
+    height: 60px;
+  }
+
+
 }

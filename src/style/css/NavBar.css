@@ -1,0 +1,60 @@
+.NavBar {
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.NavBar .NavBar_logo {
+  width: 180px;
+  height: 20px;
+ }
+
+.NavBar_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavBar_link {
+  margin: 0 10px;
+  text-decoration: none;
+  color:#000000;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.NavBar_link:hover {
+  color: #2ec4b6;
+}
+
+@media screen and (max-width: 450px) {
+  .NavBar {
+    padding: 0;
+    height: 40px;
+  }
+  
+  .NavBar_links {
+    display: none;
+  }
+
+  .NavBar .NavBar_logo {
+    width: 130px;
+    height: 15px;
+    padding-left: 1rem;
+   }
+
+
+  
+  
+  
+
+  
+
+
+  
+
+  
+}

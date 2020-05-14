@@ -1,0 +1,212 @@
+.Destination_content * {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.destination_head_picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    background-size: cover;
+    height: 500px;
+    background-position-y: 35%;
+    color: white;
+}
+
+.destination_name {
+    color: white; /* TO-DO: remove color in Quiz.css */
+    font-weight: 500;
+    font-size: 9rem !important;
+    margin-bottom: 10px;
+}
+
+.sub_title {
+    font-size: 2rem !important; 
+    margin-top: 0px;
+}
+
+.destination_description {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    position: relative;
+}
+
+.description_text {
+    position: absolute;
+    z-index: 42;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	color: white;
+	font-size: 1.3rem;
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 1.7rem;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(30px) brightness(0.5);
+    margin: 0 ;
+    padding: 0 20%;
+    box-sizing: border-box;
+}
+
+.description_background {
+    height: 100%;
+    width: 100%;
+    background-position-y: 100%;
+    background-size: cover;
+}
+
+.images_container {
+    display: flex;
+    height: 400px;
+}
+
+.image_destination {
+    width: 50vw;
+    background-size: cover;
+}
+
+.destination_partenaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-size: cover;
+    height: 450px;
+    background-position-y: 70%;
+    color: white;
+    position: relative;
+}
+
+.partenaire_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px) brightness(0.7);
+    font-family: Roboto;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.background_partenaire {
+    height: 450px;
+    background-size: cover;
+    background-position-y: 100%;
+}
+
+.partenaire_text {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container_link {
+    display: flex;
+    text-decoration: none;
+}
+
+.partenaire_button {
+    cursor: pointer;
+    background: white;
+    color: #2EC4B6;
+    
+    font-size: 3rem;
+    font-weight: 500;
+    width: 450px;
+    height: 90px;
+    border-radius: 45px;
+    border: 0;
+    margin: 40px;
+    border: solid 3px transparent;
+    transition: background-color .2s linear, border .2s linear;
+}
+
+.partenaire_button:hover {
+    background-color: #CBF3F0;
+    border: solid 3px #2EC4B6;
+}
+
+.partenaire_button:active {
+    background-color: #2EC4B6;
+    border: solid 3px #2EC4B6;
+    color: white;
+}
+
+.partenaire_button:focus {outline:0;}
+
+.return_to_quiz {
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 800px) {
+
+    .destination_head_picture {
+        padding-top: 0;
+        height: 200px;
+    }
+
+    .sub_title {
+        font-size: 1rem !important; 
+    }
+
+    .destination_name {
+        font-size: 4rem !important;
+        margin-bottom: 10px;
+    }
+
+    .destination_description {
+        height: 400px;
+    }
+
+    .description_text {
+        font-size: 1rem;
+        line-height: normal;
+        padding: 0 10%;
+    }
+
+    .images_container {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    
+    .image_destination {
+        width: auto;
+        height: 50%;
+        background-size: cover;
+    }
+
+    .destination_partenaire {
+        height: 250px;
+    }
+
+    .partenaire_text {
+        font-size: 1rem;
+    }
+
+    .partenaire_button {
+        font-size: 1.7rem;
+        width: 70vw;
+        height: 70px;
+        border-radius: 45px;
+        border: 0;
+        margin: 20px 10px;
+        transition: none;
+    }
+
+    .return_to_quiz {
+        font-size: 0.8rem;
+    }
+}
