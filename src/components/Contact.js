@@ -26,7 +26,13 @@ class Contact extends Component {
         
         <div className="Contact_container-texte-formulaire">
         <h1>Contact</h1>
-          <div className="Contact_contact-descriptif">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+          <div className="Contact_contact-descriptif">
+              Toujours à la recherche de destinations fun,
+              l'équipe Discovery vous invite à partager vos plus belles expériences de voyage.
+              Lâchez-vous, le plus beau témoignage gagnera un séjour chez notre partenaire principal "Discovery voyage",
+               inclus jacuzzi et bulles de champagne...
+    
+              </div>
             <div class="Contact_formulaire-contact">
               <form className="Contact_form" onSubmit={this.handleSubmit}>
                 <input type="text" name="field1" placeholder="Votre nom" />

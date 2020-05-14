@@ -23,7 +23,11 @@
   text-decoration: none;
   color:#000000;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.1rem;
+}
+
+.NavBar_link:hover {
+  color: #2ec4b6;
 }
 
 @media screen and (max-width: 450px) {
