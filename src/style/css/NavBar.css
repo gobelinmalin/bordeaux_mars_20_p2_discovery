@@ -51,7 +51,7 @@
    }
 
    .Menu_burger {
-    display: block;
+    display: flex;
   }
 
   /* Position and sizing of burger button */
@@ -81,7 +81,7 @@
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: white;
 }
 
 /*
@@ -95,21 +95,37 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  background: #2ec4b6;
+  padding: 2.5em 0;
+  font-size: 2rem;
+  display: flex;
 }
+  
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 /* Individual item */
 .bm-item {
-  display: inline-block;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  height: 5rem;
+  padding: 1rem;
 }
+
+.bm-item:hover {
+  color: #2ec4b6;
+  background-color: white;
+}
+
 
 /* Styling of overlay */
 .bm-overlay {

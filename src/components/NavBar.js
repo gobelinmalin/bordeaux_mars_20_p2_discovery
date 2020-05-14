@@ -29,10 +29,11 @@ class NavBar extends React.Component {
   
         <div className="Menu_burger" >
             <Menu right>
-              <a id="home" className="menu-item" href="/">Home</a>
-              <a id="about" className="menu-item" href="/about">About</a>
+              <a id="home" className="menu-item" href="/">Accueil</a>
+              <a id="about" className="menu-item" href="/quiz/1">Quiz</a>
+              <a id="quiz" className="menu-item" href="/AboutUs">A propos</a>
               <a id="contact" className="menu-item" href="/contact">Contact</a>
-              <a onClick={ this.showSettings } className="menu-item--small" href="/">Settings</a>
+              <a id="tripadvisor" className="menu-item" href="https://www.tripadvisor.fr/Tourism-g189398-Gr"><i class="fab fa-tripadvisor"></i></a>
             </Menu>
         </div>
       </nav>
