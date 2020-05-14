@@ -192,6 +192,10 @@
         height: 250px;
     }
 
+    .partenaire_text {
+        font-size: 1rem;
+    }
+
     .partenaire_button {
         font-size: 1.7rem;
         width: 70vw;
