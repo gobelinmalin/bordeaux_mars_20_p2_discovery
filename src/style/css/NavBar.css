@@ -30,6 +30,10 @@
   color: #2ec4b6;
 }
 
+.Menu_burger {
+  display: none;
+}
+
 @media screen and (max-width: 450px) {
   .NavBar {
     padding: 0;
@@ -46,6 +50,87 @@
     padding-left: 1rem;
    }
 
+   .Menu_burger {
+    display: flex;
+  }
+
+  /* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 24px;
+  right: 1rem;
+  top: 0.5rem;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #2ec4b6;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #2ec4b6;
+  padding: 2.5em 0;
+  font-size: 2rem;
+  display: flex;
+}
+  
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+/* Individual item */
+.bm-item {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  height: 5rem;
+  padding: 1rem;
+}
+
+.bm-item:hover {
+  color: #2ec4b6;
+  background-color: white;
+}
+
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
 
   
   
