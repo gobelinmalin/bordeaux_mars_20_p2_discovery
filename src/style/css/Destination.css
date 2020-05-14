@@ -162,6 +162,15 @@
         margin-bottom: 10px;
     }
 
-    
+    .destination_description {
+        height: 400px;
+    }
+
+    .description_text {
+        font-size: 1rem;
+        line-height: normal;
+        padding: 0 10%;
+    }
+
 
 }
