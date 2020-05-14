@@ -109,7 +109,7 @@
     text-align: center;
 }
 
-.partenaire_content a {
+.container_link {
     display: flex;
     text-decoration: none;
 }
@@ -206,4 +206,7 @@
         transition: none;
     }
 
+    .return_to_quiz {
+        font-size: 0.8rem;
+    }
 }

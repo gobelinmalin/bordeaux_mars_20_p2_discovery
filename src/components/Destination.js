@@ -39,7 +39,7 @@ class Destination extends Component {
                         <div className="destination_partenaire">
                             <div className="partenaire_content">
                                 <p className="partenaire_text">Retrouvez nos liens partenaires <br /> si vous souhaitez planifier votre voyage</p>
-                                <a href={destination.url} target="_blank" rel="noopener noreferrer" >
+                                <a href={destination.url} target="_blank" rel="noopener noreferrer" className="container_link">
                                     <button className="partenaire_button">Envolez-vous!</button>
                                 </a>
                                 <Link to="/quiz/1" className="return_to_quiz">je retente ma chance</Link>
