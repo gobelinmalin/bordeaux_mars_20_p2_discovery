@@ -188,6 +188,10 @@
         background-size: cover;
     }
 
+    .destination_partenaire {
+        height: 250px;
+    }
+
     .partenaire_button {
         font-size: 1.7rem;
         width: 70vw;
