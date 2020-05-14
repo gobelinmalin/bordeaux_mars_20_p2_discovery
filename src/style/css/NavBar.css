@@ -2,7 +2,6 @@
   padding: 20px;
   background-color: white;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   height: 60px;
 }
@@ -34,6 +33,7 @@
   display: none;
 }
 
+
 @media screen and (max-width: 450px) {
   .NavBar {
     padding: 0;
@@ -48,6 +48,7 @@
     width: 130px;
     height: 15px;
     padding-left: 1rem;
+    margin: 10%;
    }
 
    .Menu_burger {
