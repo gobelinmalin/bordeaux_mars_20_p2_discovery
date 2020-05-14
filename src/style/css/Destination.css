@@ -172,5 +172,16 @@
         padding: 0 10%;
     }
 
+    .images_container {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    
+    .image_destination {
+        width: auto;
+        height: 50%;
+        background-size: cover;
+    }
 
 }
