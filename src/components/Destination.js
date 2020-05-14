@@ -25,8 +25,8 @@ class Destination extends Component {
                 .map((destination, index) => 
                     <div className="Destination_content" key={index}>
                         <div style={{backgroundImage: `url(${destination.image1})`}} className="destination_head_picture">
+                            <h3 className="sub_title" >Votre destination surprise est</h3>
                             <h1 className="destination_name">{destination.name}</h1>
-                            <h3 className="sub_title" >est votre destination surprise</h3>
                         </div>
                         <div className="destination_description">
                             <p className="description_text">{destination.description}</p>
@@ -39,7 +39,7 @@ class Destination extends Component {
                         <div className="destination_partenaire">
                             <div className="partenaire_content">
                                 <p className="partenaire_text">Retrouvez nos liens partenaires <br /> si vous souhaitez planifier votre voyage</p>
-                                <a href={destination.url} target="_blank" rel="noopener noreferrer" >
+                                <a href={destination.url} target="_blank" rel="noopener noreferrer" className="container_link">
                                     <button className="partenaire_button">Envolez-vous!</button>
                                 </a>
                                 <Link to="/quiz/1" className="return_to_quiz">je retente ma chance</Link>
